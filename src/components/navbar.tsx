@@ -31,7 +31,7 @@ export function Navbar() {
 						>
 							<MenuIcon />
 						</SheetTrigger>
-						<SheetContent side="left">
+						<SheetContent side="top" className="data-[side=top]:h-dvh data-[side=top]:border-b-0">
 							<SheetHeader>
 								<SheetTitle>Menü</SheetTitle>
 								<SheetDescription className="sr-only">Hauptnavigation</SheetDescription>
